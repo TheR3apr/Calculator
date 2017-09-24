@@ -1,0 +1,74 @@
+body {
+  background-color: #669966;
+  font-family: "Times New Roman";
+}
+#calBody {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+  width: 350px;
+  background-color: #CCCC99;
+  border: 2px, solid, #908080;
+  border-radius: 25px;
+  padding-left:22px;
+  padding-right:17px;
+  box-shadow: 7px 10px 10px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 8px 1px #89847e;
+}
+#screan {
+  margin: 25px 10px 20px 5px;
+  height: 100px;
+  width: 95%;
+  border: 50px, solid, #FFFFFF;
+  background-color: #c3c2ab;
+  box-shadow: 0px 0px 0px 0px #000000, inset 40px 1px -1px -1px #222222;
+}
+button {
+  margin: 5px 10px 10px 0px;
+  height: 44px;
+  width: 65px;
+  background-color: #CC9966;
+  border-radius: 5px;
+  border: none;
+  font-size: 250%;
+  box-shadow: 0px 3px 0px 0px #222222, inset -1px -1px 3px 1px #555555;
+  
+}
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+#btnEqual {
+  height: 90px;
+  button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+}
+h1 {
+  font-size: 450%;
+}
+h6 {
+  font-size: 150%;
+}
+#btnC {
+  color: red;
+}
+.bonus {
+  position: relative;
+  margin-top: -40px;
+  top: -22px;
+}
+#btn4, #btn5, #btn6 {
+  margin-bottom: -40px;
+}
+footer {
+  margin-top: 15px;
+}
